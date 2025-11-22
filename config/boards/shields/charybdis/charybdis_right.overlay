@@ -38,6 +38,3 @@
     status = "okay";
 };
 
-&trackball_split {
-	device = <&trackball>;
-};
