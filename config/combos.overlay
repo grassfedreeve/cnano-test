@@ -14,6 +14,10 @@
     layers = <LAYERS>; \
   };
 
+/* Mouse */
+COMBO(lclk, &mkp LCLK, 16 17, 30, BASE)
+COMBO(rclk, &mkp RCLK, 17 18, 30, BASE)
+
 /* System */
 COMBO(esc, &kp ESC, 1 3, 30, BASE)
 COMBO(enter, &kp ENTER, 6 8, 30, BASE)
